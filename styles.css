@@ -32,8 +32,10 @@ body {
 
 .nav-bg{
     background-color: var(--secondary);
+
 }
 
-.main-nav{
-
+.main-nav a{
+    background-color: var(--primary);
+    display: grid;
 }
