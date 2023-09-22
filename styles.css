@@ -25,17 +25,24 @@ body {
     font-size: 2rem;
 }
 
-.container{
+.container {
     width: 120rem;
     margin: 0 auto;
 }
 
-.nav-bg{
+.nav-bg {
     background-color: var(--secondary);
 
 }
 
-.main-nav a{
-    background-color: var(--primary);
-    display: grid;
+.main-nav {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-nav a {
+    color: var(--white);
+    text-decoration: none;
 }
